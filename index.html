@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wishlist 2022</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link href="src/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <main class="bg-home text-light">
+      <div class="container py-4">
+        <header class="row align-items-center g-0 pb-3 mb-4 border-bottom">
+          <a
+            href="/"
+            class="d-flex text-light text-decoration-none fw-bold col-auto"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.5rem"
+              height="auto"
+              class="me-2 my-auto"
+              style="fill: white;"
+              viewBox="0 0 512 512"
+            >
+              <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M190.5 68.8L225.3 128H224 152c-22.1 0-40-17.9-40-40s17.9-40 40-40h2.2c14.9 0 28.8 7.9 36.3 20.8zM64 88c0 14.4 3.5 28 9.6 40H32c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H480c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32H438.4c6.1-12 9.6-25.6 9.6-40c0-48.6-39.4-88-88-88h-2.2c-31.9 0-61.5 16.9-77.7 44.4L256 85.5l-24.1-41C215.7 16.9 186.1 0 154.2 0H152C103.4 0 64 39.4 64 88zm336 0c0 22.1-17.9 40-40 40H288h-1.3l34.8-59.2C329.1 55.9 342.9 48 357.8 48H360c22.1 0 40 17.9 40 40zM32 288V464c0 26.5 21.5 48 48 48H224V288H32zM288 512H432c26.5 0 48-21.5 48-48V288H288V512z"
+              />
+            </svg>
+            <span class="fs-2 col-auto me-3">Wishlist 2022</span>
+          </a>
+          <span class="fs-md-1 fs-2 fw-bold col-2 ms-md-auto col-auto text-end"
+            >Home</span
+          >
+        </header>
+
+        <div class="p-4 mb-4 bg-dark rounded-3">
+          <div class="container-fluid">
+            <h1 class="display-4 fw-bold">Christmas 2022</h1>
+            <p class="fs-5">
+              I know getting gifts for me is a hassle, hopefully this will make
+              it easier. Presenting my wishlist, in website format. Cause I'm
+              bored at work.
+            </p>
+          </div>
+        </div>
+
+        <!-- The Categories -->
+        <div class="row justify-content-around p-3 p-md-0">
+          <div class="card bg-dark mb-3 col-md-3 p-0">
+            <img
+              class="card-img-top"
+              src="https://live.staticflickr.com/65535/48014589312_fdc7e8cedd_k.jpg"
+              alt="Women clothes in fashion store. Shopping mall. Women fashion shopping concept."
+            />
+            <div class="card-body">
+              <h5 class="card-title display-6 fw-bold">Clothing Items</h5>
+              <p class="card-text">
+                The favorite category of Grandmothers everywhere. View outfits I
+                like, and then information about what I'm possibly looking for,
+                including sizing!
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#clothingModal"
+              >
+                Inspo & Info
+              </button>
+            </div>
+          </div>
+
+          <!-- The Modal -->
+          <div class="modal" id="clothingModal">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-dark">Please Choose an Option</h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body d-grid gap-2">
+                  <a
+                    href="clothingInspiration.html"
+                    class="btn btn-lg btn-primary"
+                    >Inspiration</a
+                  >
+                  <a
+                    href="clothingInformation.html"
+                    class="btn btn-lg btn-secondary"
+                    >Information</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-dark mb-3 p-0 col-md-3">
+            <img
+              class="card-img-top"
+              src="https://media.ed.edmunds-media.com/scion/im/2016/oem/2016_scion_im_4dr-hatchback_base_d_oem_2_1600x1067.jpg"
+              alt="Interior of a Scion iM 2016 from https://www.edmunds.com/scion/im/2016/pictures/"
+            />
+            <div class="card-body">
+              <h5 class="card-title display-6 fw-bold">Car Items</h5>
+              <p class="card-text">
+                As many know, I got a delightful car this year and spend over 15
+                hours a week in it. That's quite a bit. Some items to make the
+                ride smoother would be nice.
+              </p>
+              <a href="car.html" class="btn btn-primary">Take a Look!</a>
+            </div>
+          </div>
+
+          <div class="card bg-dark mb-3 p-0 col-md-3">
+            <img
+              class="card-img-top"
+              src="https://live.staticflickr.com/65535/51152882819_23ab641250_k.jpg"
+              alt="Young woman lying in bed suffering from sound covering head and ears with pillow"
+            />
+            <div class="card-body">
+              <h5 class="card-title display-6 fw-bold">Sensory Items</h5>
+              <p class="card-text">
+                I have ADHD, some noises can be distracting. This has some items
+                that will help prevent my headaches and ease my anxiety.
+              </p>
+              <a href="sensory.html" class="btn btn-primary">Take a Look!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-grid gap-2 col-8 mx-auto">
+          <a class="btn btn-secondary" type="button" href="misc.html">
+            Miscellaneous Items
+          </a>
+        </div>
+
+        <footer class="pt-3 mt-4 text-muted border-top">
+          &copy; zaoace 2022
+        </footer>
+      </div>
+    </main>
+
+    <script src="src/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

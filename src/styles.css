@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.bg-home {
+  background-color: black;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 65vh;
+  overflow: hidden;
+}
+.card img {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  overflow: hidden;
+}
+img {
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: bold;
+}
